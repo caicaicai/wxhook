@@ -1,6 +1,8 @@
-FROM python:3
+FROM python:2
 
 ADD index.py /
+
+#RUN pip install httplib
 
 CMD [ "python", "/index.py" ]
 
